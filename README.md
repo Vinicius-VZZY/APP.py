@@ -82,3 +82,44 @@ Sistema de Controle de Versões Centralizado (CVCS): Nesse modelo, todos os arqu
 Sistema de Controle de Versões Distribuído (DVCS): Nesse modelo, cada usuário tem uma cópia completa do projeto e do histórico de alterações em seu computador local. Isso permite que os usuários trabalhem offline e sincronizem suas alterações posteriormente.
 
 Exemplos de Sistemas de Controle de Versões populares incluem Git, SVN, Mercurial e Perforce.
+
+# Desafio 4
+
+## Defina com suas palavras qual é a responsabilidade das camadas: entity,controller, repository e service em um sistema organizado em camadas de uma API:
+
+Em uma API organizada em camadas, cada camada tem uma responsabilidade específica para garantir que o sistema seja escalável, flexível e fácil de manter. Aqui estão as definições das responsabilidades das camadas:
+
+##### Entity (Entidade)
+
+A camada de entidade é responsável por representar os dados do sistema. Uma entidade é uma classe que define a estrutura e os comportamentos de um objeto de negócios, como um usuário, um produto ou uma ordem. A responsabilidade da camada de entidade é:
+
+- Definir a estrutura dos dados do sistema
+- Implementar comportamentos básicos dos objetos de negócios
+- Ser a fonte de verdade para os dados do sistema
+
+#### Repository (Repositório)
+
+A camada de repositório é responsável por gerenciar a persistência dos dados do sistema. Um repositório é uma classe que define como os dados são armazenados e recuperados do banco de dados ou de outra fonte de dados. A responsabilidade da camada de repositório é:
+
+- Gerenciar a persistência dos dados do sistema
+- Fornecer uma interface para acessar e manipular os dados
+- Abstrair a complexidade do banco de dados ou da fonte de dados
+
+#### Service (Serviço)
+
+A camada de serviço é responsável por implementar a lógica de negócios do sistema. Um serviço é uma classe que define como as entidades e repositórios são utilizados para realizar operações de negócios, como autenticar um usuário ou processar uma ordem. A responsabilidade da camada de serviço é:
+
+- Implementar a lógica de negócios do sistema
+- Coordenar as interações entre as entidades e repositórios
+- Fornecer uma interface para acessar as funcionalidades do sistema
+
+#### Controller (Controlador)
+
+A camada de controlador é responsável por receber e processar as solicitações da API. Um controlador é uma classe que define como as solicitações são recebidas, validadas e processadas, e como as respostas são enviadas de volta ao cliente. A responsabilidade da camada de controlador é:
+
+- Receber e processar as solicitações da API
+- Validar e sanitizar os dados de entrada
+- Chamar os serviços para realizar as operações de negócios
+- Enviar as respostas de volta ao cliente
+
+Essas camadas trabalham juntas para garantir que o sistema seja escalável, flexível e fácil de manter. Cada camada tem uma responsabilidade específica e bem definida, o que ajuda a reduzir a complexidade do sistema e a facilitar a manutenção e o desenvolvimento.
