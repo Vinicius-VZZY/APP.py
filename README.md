@@ -2,7 +2,7 @@
 
 
 # Desafio 1
-<<<<<<< HEAD
+
 =======
 
 ## VCS (Sistema de Controle de Versões)
