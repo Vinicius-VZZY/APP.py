@@ -8,7 +8,7 @@ usuarios = [
     {'id': 3, 'name': 'Dart Windu', 'idade': 38},
     {'id': 4, 'name': 'JeffBoyKilla', 'idade': 33},
 ]
-
+    
 @app.route('/usuarios', methods=['GET'])
 def consultar_usuarios():
     return jsonify(usuarios)
