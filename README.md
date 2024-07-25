@@ -122,4 +122,4 @@ A camada de controlador é responsável por receber e processar as solicitaçõe
 - Chamar os serviços para realizar as operações de negócios
 - Enviar as respostas de volta ao cliente
 
-Essas camadas trabalham juntas para garantir que o sistema seja escalável, flexível e fácil de manter. Cada camada tem uma responsabilidade específica e bem definida, o que ajuda a reduzir a complexidade do sistema e a facilitar a manutenção e o desenvolvimento.
+Essas camadas trabalham juntas para garantir que o sistema seja escalável, flexível e fácil de manter. Cada camada tem uma responsabilidade específica e bem definida, o que ajuda a reduzir a complexidade do sistema e a facilitar a manutenção e o desenvolvimento do mesmo.
