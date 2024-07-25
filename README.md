@@ -3,7 +3,7 @@
 
 # Desafio 1
 
-=======
+
 
 ## VCS (Sistema de Controle de Versões)
 
@@ -61,7 +61,7 @@ Nesse exemplo, a abstração permite representar o veículo como uma entidade qu
 
 
 # Desafio 3
->>>>>>> Desafio3
+
 
 ## VCS (Sistema de Controle de Versões):
 
