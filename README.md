@@ -1,3 +1,5 @@
+
+
 #### Vinicius Guimarães Urquiza (VZZY)
 
 
@@ -123,3 +125,43 @@ A camada de controlador é responsável por receber e processar as solicitaçõe
 - Enviar as respostas de volta ao cliente
 
 Essas camadas trabalham juntas para garantir que o sistema seja escalável, flexível e fácil de manter. Cada camada tem uma responsabilidade específica e bem definida, o que ajuda a reduzir a complexidade do sistema e a facilitar a manutenção e o desenvolvimento do mesmo.
+
+# Desafio 5
+
+## O que é um padrão de projeto e porque usamos:
+
+Um padrão de projeto (design pattern) é uma solução geral e reutilizável para um problema comum de projeto de software. É uma descrição de uma estrutura de classes e objetos que resolve um problema específico, considerando as relações entre eles e as responsabilidades de cada um.
+
+## O que é arquitetura de software:
+
+A arquitetura de software é o conjunto de estruturas e relacionamentos entre os componentes de um sistema de software, incluindo as interfaces, os padrões de comunicação e as tecnologias utilizadas. É a estrutura geral do sistema, que define como os componentes se relacionam e interagem entre si para atender aos requisitos funcionais e não funcionais do sistema.
+
+## O que significa a sigla SOLID e quais os seus princípios:
+
+A sigla SOLID é um acrônimo que representa cinco princípios de design de software que ajudam a criar sistemas mais flexíveis, escaláveis e fáceis de manter. Cada letra da sigla representa um princípio:
+
+ - S - Single Responsibility Principle (Princípio da Responsabilidade Única)
+
+Cada classe ou módulo deve ter apenas uma responsabilidade e uma razão para mudar.
+Isso significa que uma classe deve ter apenas uma função ou propósito, e não deve ser responsável por múltiplas tarefas.
+
+- O - Open/Closed Principle (Princípio Aberto/Fechado)
+
+Um sistema deve ser aberto para extensão, mas fechado para modificação.
+Isso significa que um sistema deve ser projetado para permitir que novas funcionalidades sejam adicionadas sem modificar o código existente.
+
+- L - Liskov Substitution Principle (Princípio de Substituição de Liskov)
+
+Subclasses devem ser substituíveis por suas classes base.
+Isso significa que uma subclasse deve ser capaz de ser usada no lugar de sua classe base sem afetar a funcionalidade do sistema.
+
+- I - Interface Segregation Principle (Princípio de Segregação de Interface)
+
+Uma interface deve ser projetada para atender às necessidades de seus clientes.
+Isso significa que uma interface deve ser dividida em interfaces menores e mais específicas, em vez de ter uma interface grande e genérica.
+
+- D - Dependency Inversion Principle (Princípio de Inversão de Dependência)
+
+Módulos de alto nível não devem depender de módulos de baixo nível, mas ambos devem depender de abstrações.
+Isso significa que um módulo deve depender de uma abstração (interface) em vez de depender de uma implementação específica.
+Esses princípios ajudam a criar sistemas mais flexíveis, escaláveis e fáceis de manter, pois eles promovem a separação de concerns, a modularidade e a abstração.

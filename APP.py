@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, request
 
-app = Flask(_name_)
+app = Flask(__name__)
 
 usuarios = [
     {'id': 1, 'name': 'Darth VZZY', 'idade': 31},
@@ -33,7 +33,7 @@ def atualizar_por_id(id):
           usuarios[indice].update(usuario_atualizado)
           return jsonify(usuarios[indice])
       
-@app.route('/usuarios/int:id>', methods=['DELETE'])
+@app.route('/usuarios/<int:id>', methods=['DELETE'])
 def excluir_usuario_por_id(id):
     for indice,usuario in enumerate(usuarios):
         if usuario.get('id')==id:
